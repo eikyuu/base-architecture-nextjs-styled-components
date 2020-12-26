@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import breakpoints from "../../helpers/breakpoints";
-import fonts from "../../helpers/fonts";
-import colors from "../../helpers/colors";
 
 const Menu = styled.ul`
   clear: both;
@@ -10,8 +8,8 @@ const Menu = styled.ul`
 
   @media (min-width: ${breakpoints.small}) {
     clear: none;
-    float: right;
     max-height: none;
+    float: right;
   }
 `;
 
